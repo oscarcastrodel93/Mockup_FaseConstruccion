@@ -26,7 +26,7 @@
                         </figure>
                     </div>
                     <div class="col-lg-6 col-md-5 col-sm-12 ">
-                        <h3 class="letra-unidad">PROGRAMACIÓN WEB 1</h3>
+                        <h3 class="letra-unidad">O.V.I. PROGRAMACIÓN WEB 1</h3>
                         <h4><span class="letra-unidad">CÓDIGO:</span> 2145475</h4>
                     </div>
                 </div>
@@ -129,38 +129,22 @@
         <script src="../js/jquery.js"></script>
         <script src="../js/bootstrap.min.js"></script>
         <script>
-            $('.dropdown').hover(function(){ 
-                $('.dropdown-toggle', this).trigger('click'); 
-            });
-        </script>
-        <script>
-            $('.carousel').carousel({
-                interval: 1000 //changes the speed
-                slideshow: true,
-                arrows: true,
-                indicators: true,
-                random: false,
-                animationSpeed: '1s'
-            });
-        </script>
-        <script>
             $(document).ready(function(){
-                    $('#ex1').zoom();
-            });
-        </script>
-        <script>
-         $(document).ready(function(){
-            $window = $(window);
-                 $('div[data-type="background"]').each(function() {
-                     var $scroll = $(this);
 
-                     $(window).scroll(function() {
-                         var yPos = -($window.scrollTop() / $scroll.data('speed'));
-                         var coords = '50% ' + yPos + 'px';
-                         $scroll.css({ backgroundPosition: coords });
-                     });
-                 });
-         });
-        </script>            
+                $('.dropdown').hover(function(){ 
+                    $('.dropdown-toggle', this).trigger('click'); 
+                });
+
+                $window = $(window);
+                $('div[data-type="background"]').each(function() {
+                    var $scroll = $(this);
+                    $(window).scroll(function() {
+                        var yPos = -($window.scrollTop() / $scroll.data('speed'));
+                        var coords = '50% ' + yPos + 'px';
+                        $scroll.css({ backgroundPosition: coords });
+                    });
+                });
+            });
+        </script>              
     </body>
 </html>
