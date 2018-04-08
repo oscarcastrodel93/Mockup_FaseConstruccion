@@ -1,0 +1,166 @@
+<html>
+    <head>
+        <title>Programación Web - Nivel 1</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, minimun-scale=1,maximun-scale=1"/>
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="../css/bootstrap.min.css"/>
+        <!-- Custom styles for project -->
+        <link rel="stylesheet" href="../css/normalize.css"/>
+        <!-- Estilos personalizados -->
+        <link rel="stylesheet" href="../css/dashboard.css"/>
+        <link rel="stylesheet" href="../css/head-stilos.css"/>
+        <link rel="stylesheet" href="../css/footer-stilos.css"/>
+        <!-- Tipo de letra -->
+        <link href='https://fonts.googleapis.com/css?family=Hind+Vadodara:400,500,600,700' rel='stylesheet' type='text/css'/>
+    </head>
+    <body>  
+        <!-- Header -->
+        <header id="header"> 
+            <!-- Logos cfip y marca de agua -->
+            <div  class="navbar head-container" role="navigation" >
+                <div class="container">
+                    <div class="col-lg-6 col-md-7 col-sm-12 " >
+                        <figure class="logoPrincipal-Container">
+                            <img src="../images/logoUnad.png" class="logoPrincipal" alt="Logo de la Compañia"/>
+                        </figure>
+                    </div>
+                    <div class="col-lg-6 col-md-5 col-sm-12 ">
+                        <h3 class="letra-unidad">PROGRAMACIÓN WEB 1</h3>
+                        <h4><span class="letra-unidad">CÓDIGO:</span> 2145475</h4>
+                    </div>
+                </div>
+            </div>
+            <!-- Botones menu navegacion -->
+            <form class="botones-nav">
+                <nav role="navigation" class="navbar-default navbar-container">
+                    <div class="container nav-container">
+                        <div class="navbar-header menu">
+                            <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>                
+                        <div id="navbarCollapse" class="collapse navbar-collapse">
+                            <ul class="nav navbar-nav navButton-container">
+                                <li class="nav-buttons-li">
+                                    <a href="../index.html" class="navbar-enlaces">Inicio</a>
+                                </li>
+                                <li class="dropdown nav-buttons-li" >
+                                    <a href="quienesSomos.xhtml" class="dropdown-toggle nav-person" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lecturas</a>
+                                    <ul class="dropdown-menu">
+                                       <li class="nav-select">
+                                          <a href="../lecturas/lectura1.html">Lectura 1</a>
+                                       </li>
+                                       <li class="nav-select">
+                                          <a href="../lecturas/lectura2.html">Lectura 2</a>
+                                       </li>
+                                       <li class="nav-select">
+                                          <a href="../lecturas/lectura3.html">Lectura 3</a>
+                                       </li>
+                                       <li class="nav-select">
+                                          <a href="../lecturas/lectura4.html">Lectura 4</a>
+                                       </li>
+                                       <li class="nav-select nav-selectFinal">
+                                          <a href="../lecturas/lectura5.html">Lectura 5</a>
+                                       </li>
+                                    </ul>
+                                </li>
+                                <li class=" dropdown nav-buttons-li" >
+                                  <a href="#" class="dropdown-toggle nav-person" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Multimedia</a>
+                                 <ul class="dropdown-menu">
+                                      <li class="nav-select">
+                                          <a href="../multimedia/pagina1.html">pagina 1</a>
+                                      </li>
+                                      <li class="nav-select nav-selectFinal">
+                                          <a href="../multimedia/pagina2.html">pagina 2</a>
+                                      </li>
+                                  </ul>
+                                </li>
+                                 <li class=" dropdown nav-buttons-li" >
+                                  <a href="#" class="dropdown-toggle nav-person" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Actividades</a>
+                                 <ul class="dropdown-menu">
+                                      <li class="nav-select">
+                                          <a href="../actividades/actividad1.html">Actividad 1</a>
+                                      </li>
+                                      <li class="nav-select">
+                                          <a href="../actividades/actividad2.html">Actividad 2</a>
+                                      </li>
+                                      <li class="nav-select nav-selectFinal">
+                                          <a href="../actividades/actividad3.html">Actividad 3</a>
+                                      </li>
+                                  </ul>
+                                </li>
+                                <li class="nav-buttons-li">
+                                    <a class="nav-buttons-li navbar-enlaces" href="../autores/autores.html">Autores</a>
+                                </li>
+                            </ul>
+                        </div>
+                     </div>
+                </nav>
+            </form>
+        </header>
+        
+        <!-- body -->
+        <div id="body">
+            <!-- Slider -->
+            Cuerpo
+        </div>
+        <!-- footer -->
+        <footer id="pie" class="pie-pagina">
+            <div class="container-fluid">
+                <div class="row container-footer">
+                    <figure>
+                        <img src="../images/logo/logoblanco.png" alt="Logo Compañia footer" class="logoFooter"/>
+                    </figure>
+                    <p>
+                        Universidad Nacional Abierta y a Distancia
+                    </p>
+                    <p>
+                        Diseño de sitios web
+                    </p>             
+                </div>
+            </div>  
+        </footer>
+        <!-- scripts -->
+        <script src="../js/jsfcrud.js"></script>
+        <script src="../js/jquery.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script>
+            $('.dropdown').hover(function(){ 
+                $('.dropdown-toggle', this).trigger('click'); 
+            });
+        </script>
+        <script>
+            $('.carousel').carousel({
+                interval: 1000 //changes the speed
+                slideshow: true,
+                arrows: true,
+                indicators: true,
+                random: false,
+                animationSpeed: '1s'
+            });
+        </script>
+        <script>
+            $(document).ready(function(){
+                    $('#ex1').zoom();
+            });
+        </script>
+        <script>
+         $(document).ready(function(){
+            $window = $(window);
+                 $('div[data-type="background"]').each(function() {
+                     var $scroll = $(this);
+
+                     $(window).scroll(function() {
+                         var yPos = -($window.scrollTop() / $scroll.data('speed'));
+                         var coords = '50% ' + yPos + 'px';
+                         $scroll.css({ backgroundPosition: coords });
+                     });
+                 });
+         });
+        </script>            
+    </body>
+</html>

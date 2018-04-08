@@ -1,0 +1,139 @@
+.nav-buttons-li{
+    display:inline-block;
+    color:#fff;
+    text-decoration:none;
+    line-height:normal;
+    -webkit-transition:all 700ms ease;
+    -o-transition:all 700ms ease;
+    transition:all 700ms ease;
+    text-align: center;
+    width: 10em; 
+    
+}
+.navbar-container{
+    background: #004669; 
+    border-radius: 0; 
+    border: 0;    
+}
+.navbar-enlaces{
+    color: white !important;
+}
+.nav-selectFinal{
+    border-bottom:0px !important
+}
+
+@media (max-width: 1000px) {
+  ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+  }
+  .nav-buttons-li{
+      width: 100%;
+      display: block !important;
+  }
+}
+ul.nav li.dropdown:hover ul.dropdown-menu{
+    display: block !important;    
+}
+.nav-person{
+    color: white !important;
+}
+.dropdown-toggle:active, .open .dropdown-toggle {
+    background: #e7b200 !important; color: white !important;
+}
+ .navbar-default .navbar-nav .open .dropdown-menu>li>a,.navbar-default .navbar-nav .open .dropdown-menu {
+    background-color: white;
+    color: black;
+  }
+.dropdown-menu li>a{
+    color:grey; 
+}
+.dropdown-menu>li{
+    padding:5px; 
+    border-bottom:2px solid lightgray;
+}
+.dropdown-menu li>a:hover{
+    background:white; 
+}
+@media (max-width: 1150px) {
+  .logoPrincipal-Container {
+      text-align:center;
+      margin-right: 1em;
+  }
+}
+
+
+@media (max-width: 1000px) {
+  .marcaAgua {
+    display: none !important;
+  }
+}
+
+@media (max-width: 1000px) {
+  ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+  }
+  .nav-buttons-li{
+      width: 100%;
+      display: block !important;
+  }
+}
+.nav-buttons-li:hover{
+    background:  #e7b200;
+    text-decoration: underline;
+}
+
+
+.bandera{
+    width: 1.5em; position: relative
+}
+
+.busqueda-container{
+    margin-top: 3em;
+}
+
+.head-container{
+    margin-bottom: 0 !important;
+}
+
+
+
+.marca-aguaContainer{ 
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.marcaAgua{
+    width: 30em;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.idioma-container{
+    position: absolute;
+    right: 2em
+}
+
+
+
+.navButton-container {
+    width: 100%;
+    text-align: center !important;
+    border-bottom: 0px !important;
+    padding-left:50px;
+}
+
+.nav-container {
+    border-bottom: 0px !important;
+}
+
+.botones-nav {
+    margin: 0
+}
+
+.letra-unidad {
+    margin-top:  1.5em;
+    font-weight: bold;    
+}
+
+.logoPrincipal {
+    width: 30em;
+}
