@@ -557,3 +557,31 @@ body{
     background-repeat: no-repeat;
     background-size: 100%;
 }
+
+/*Estilos para la pagina de inicio*/
+div#body {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+div#body section {
+  float: left;
+  width: 80%;
+}
+div#body aside {
+  float: left;
+  width: 20%;
+}
+@media(max-width:770px){
+    div#body {
+      width: 100%;
+      margin: 0 auto;
+      overflow: hidden;
+    }
+    div#body section {
+      float: left;
+    }
+    div#body aside {
+      width: 100%;
+    }
+}
