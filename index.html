@@ -25,7 +25,7 @@
                             <img src="images/logoUnad.png" class="logoPrincipal" alt="Logo de la Compañia"/>
                         </figure>
                     </div>
-                    <div class="col-lg-6 col-md-5 col-sm-12 ">
+                    <div class="col-lg-6 col-md-5 col-sm-12 " style="margin-top: 1em">
                         <h3 class="letra-unidad">O.V.I. PROGRAMACIÓN WEB 1</h3>
                         <h4><span class="letra-unidad">CÓDIGO:</span> 2145475</h4>
                     </div>
@@ -104,7 +104,7 @@
         </header>
         
         <!-- body -->
-        <div id="body" >
+        <div>
             <!-- Slider -->
             <section id="slider">         
                 <div id="carousel-1" class="carousel slide" data-ride="carousel" >
@@ -130,9 +130,62 @@
                     </a>
                 </div>
             </section>
-            <aside>
-              <a class="twitter-timeline" data-width="400" data-height="355" data-lang="es" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets de la UNAD</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-            </aside>
+            
+            <section class="container-fluid noticias" id="noticias">
+                <div class="col-lg-5 col-md-12 col-sm-12 panel-noticias">
+                <h2 class="tituloNoticias-container"><span class="tituloNoticias">Tweets de la UNAD </span></h2>
+                     <div>
+                       <aside>
+                          <a class="twitter-timeline" data-width="90%" data-height="500" data-lang="es" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets de la UNAD</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        </aside>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-12 col-sm-12 panel-videoReconocimientos">
+                   <div class="panel-reconocimientos">
+                        <h2 class="tituloObjetivos"><span class="glyphicon glyphicon-duplicate iconos-color"></span> Temáticas del curso</h2>
+                        <span class="letras-tematica">1 - </span>Conceptos generales y objetivos de la programación con PHP<br>
+                        <span class="letras-tematica">2 - </span>Conexión entre PHP y MySQL<br>
+                        <span class="letras-tematica">3 - </span>EL C.R.U.D. Implementación entre PHP y MySQL<br>
+                        <span class="letras-tematica">4 - </span><br>
+                        <span class="letras-tematica">5 - </span><br>
+                        <span class="letras-tematica">6 - </span><br>
+                    </div>
+                    <p></p>
+                    <div class="panel-reconocimientos">
+                        <h2 class="tituloObjetivos"><span class="glyphicon glyphicon-earphone iconos-color"></span> Escríbenos</h2>
+                        <p></p>
+                        <form action="prose-form.php" method="post" class="contact-form" >
+                            <div class="form-group col-md-12">
+                                <p class="help-block" style="font-size: .9em; text-align: justify">Escribenos a través del siguiente formulario y con gusto responderemos a sus inquietudes o solicitudes.</p>
+                            </div>    
+                            <br>
+                            <div class="form-group col-md-12">
+                              <label for="exampleInputEmail1">Nombre y apellido: <span style="color: red; font-size: 0.7em">(*obligatorio)</span></label>
+                              <input class="form-control nombre" name="nombre" style="border-radius: 0" placeholder="Nombre" onblur="revisar(this);">
+                            </div>
+                            <div class="form-group col-md-12">
+                              <label for="exampleInputTelefono">Telefono: <span style="color: red; font-size: 0.7em">(*obligatorio)</span></label>
+                              <input class="form-control telefono" name="tel" style="border-radius: 0" placeholder="Telefono" onblur="revisar(this);">
+                            </div>
+                            <div class="form-group col-md-12">
+                              <label for="exampleInputPassword1">Correo electronico: <span style="color: red; font-size: 0.7em">(*obligatorio)</span></label>
+                              <input class="form-control correo" name="correo" style="border-radius: 0" placeholder="Correo electronico" onblur="revisar(this); revisaremail(this);">
+                            </div>
+
+                            <div class="form-group col-md-12">
+                              <label for="descripcion">Descripción: <span style="color: red; font-size: 0.7em">(*obligatorio)</span> </label>
+                              <textarea class="form-control mensaje" name="mensaje" rows="3"  style="border-radius: 0" placeholder="Descripción" onblur="revisar(this);"></textarea>
+                            </div>
+
+                            <div class="form-group col-md-12">
+                              <input class="btn btn-primary btn-block" style="border-radius: 0" type="submit" value="Enviar"/>
+
+                            </div>
+                        </form>
+                    </div>
+                    
+                </div>
+            </section>
         </div>
         <!-- footer -->
         <footer id="pie" class="pie-pagina">

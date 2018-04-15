@@ -120,12 +120,11 @@ body{
     color: #5e5e5e;
 }
 .panel-categoria{
-    padding: 1em !important;
-    margin: 0.1em;
-    border-radius: .5em; 
-    text-align: center;
+    padding: 5px; 
+    text-align: left;
     background: rgba(255, 255, 255, 0.901961);
-    border: 1px solid dodgerblue;
+    border: 1px solid #004669;
+    vertical-align: center;
 }
 @media(max-width:770px){
     .container-categorias{
@@ -584,4 +583,97 @@ div#body aside {
     div#body aside {
       width: 100%;
     }
+}
+.noticias {
+    background: white;
+    text-align: center;
+    margin-bottom: .5em;
+    margin-top: 0;
+}
+
+.panel-noticias {
+    margin: .5em 0;
+    padding-bottom: 1em;
+    background: #dcdcdc; 
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(107,107,107,1);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(107,107,107,1);
+    box-shadow: 0px 0px 5px 4px rgba(107,107,107,1);
+}
+
+
+
+.tituloNoticias-container {
+    margin-top: 2em; 
+    margin-bottom: 2em;
+}
+
+.tituloNoticias {
+    font-size: 1.1em; 
+    font-weight: bold;
+    border: 7px solid #004669; 
+    border-radius: 25px; 
+    padding: 20px
+}
+
+.panel-videoReconocimientos {
+    padding: .3em;
+}
+
+.panel-video {
+    background: white;
+    padding-bottom: 1em;
+    border-radius: 1em; 
+    margin: 1em 2em;
+}
+
+.tituloObjetivos {
+    color: #004669;
+    text-align: left; 
+    border-bottom: 1px solid #004669;
+}
+
+.estilo-iconNoticias {
+    font-size: .8em;
+}
+
+.panel-reconocimientos {
+    text-align: left; 
+    margin-top: 3em;
+    background: white; 
+    border-radius: 1em; margin: 1em 2em;
+}
+
+.tituloReconocimientos {
+    color: dodgerblue;
+    text-align: left;
+    border-bottom: 1px solid dodgerblue;
+}
+
+.panel-reconocimientoImages {
+    margin-right: 1em;
+}
+
+.panel-categoriaPosicion {
+    width: 300px; 
+    float: right;
+    margin-right: 10%;
+    text-align: center;
+    margin-top: 8em; 
+    padding: 2em
+}
+
+.letras-tematica {
+    color: #004669;
+    font-weight: bold;
+}
+.panel-contactos {
+    border-left: 4px solid #009a3d;
+}
+
+.contactos {
+    margin-left: .5em
+}
+
+.letra-correoContacto {
+    font-size: .9em;
 }
